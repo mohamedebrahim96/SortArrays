@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vacuum.app.sortarrays.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/lay"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/lay2"
+            >
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint="add data"
+                android:id="@+id/edittext"
+                android:layout_margin="10dp"
+                />
+            <Button
+                android:layout_width="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/if_add_126583"
+                android:id="@+id/add_btn"
+                android:layout_height="40dp" />
+        </LinearLayout>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/list"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="20dp"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_below="@+id/lay"
+        >
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:id="@+id/down"
+        android:background="@drawable/if_arrow_down_118752"
+        />
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:id="@+id/up"
+        android:background="@drawable/if_arrow_up_118744"
+        />
+    </LinearLayout>
+
+
+</RelativeLayout>
