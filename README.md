@@ -1,11 +1,9 @@
 ### SortArrays
 
 I have a List<> containing data. How can I sort it to ascending and descending?
-
 ================================================================
 
 Sorting List ascending and descending android java
-
 ================================================================
 
 ### Prerequisites
