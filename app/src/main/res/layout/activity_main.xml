@@ -57,8 +57,10 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_margin="10dp"
+        android:rotation="180"
+        android:backgroundTint="#ed0000"
         android:id="@+id/down"
-        android:background="@drawable/if_arrow_down_118752"
+        android:background="@drawable/if_arrow_up_118744"
         />
     <Button
         android:layout_width="40dp"
