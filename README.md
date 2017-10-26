@@ -6,10 +6,10 @@ I have a List<> containing data. How can I sort it to ascending and descending?
 Sorting List ascending and descending android java
 ================================================================
 
-### Prerequisites
-What things you need to install the software and how to install them
+### Splash Screen
+What things you need to Make Android Splash Screen With Progress Bar
 
-![attachment](https://user-images.githubusercontent.com/16405013/31633829-e08b2f34-b2c1-11e7-8ba8-62b6608eb0ae.png)
+![attachment](https://user-images.githubusercontent.com/16405013/31858453-1cc2e660-b6f8-11e7-9ced-bbe2ee354a99.png)
 
 ================================================================
 
