@@ -25,9 +25,9 @@ public class SplashScreen extends Activity {
 
         mWebView = (WebView) findViewById(R.id.webview);
         mWebView.setBackgroundColor(0);
-        mWebView.setWebChromeClient(new WebChromeClient());
-        mWebView.setWebViewClient(new WebViewClient());
-        mWebView.getSettings().setJavaScriptEnabled(true);
+        //mWebView.setWebChromeClient(new WebChromeClient());
+        //mWebView.setWebViewClient(new WebViewClient());
+        //mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.loadUrl("file:///android_asset/index.html");
 
         new Handler().postDelayed(new Runnable() {
